@@ -47,6 +47,253 @@
         font-size: 14px;
         font-weight: 400;
     }
+    
+.l-navbar {
+    position: fixed;
+    top: 0;
+    left: -30%;
+    width: var(--nav-width);
+    height: 100vh;
+    padding: .5rem 1rem 0 0;
+    transition: .5s;
+    z-index: var(--z-fixed)
+}
+.nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden
+}
+.nav_link,
+.nav_logo {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    column-gap: 1rem;
+    padding: .5rem 0 .5rem 1.5rem
+}
+.nav_logo {
+    margin-bottom: 2rem
+}
+.nav_logo-icon {
+    font-size: 1.25rem;
+    color: var(--white-color)
+}
+.nav_logo-name {
+    color: var(--white-color);
+    font-weight: 700
+}
+.nav_link {
+    position: relative;
+    color: var(--first-color-light);
+    margin-bottom: 1.5rem;
+    transition: .3s
+}
+.nav_link:hover {
+    color: var(--white-color)
+}
+.nav_icon {
+    font-size: 1.25rem
+}
+.active {
+    color: var(--white-color)
+}
+.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 2px;
+    height: 32px;
+    background-color: var(--white-color)
+}
+.height-100 {
+    height: 100vh
+}
+@media screen and (min-width:768px) {
+    body {
+        margin: calc(var(--header-height) + 1rem) 0 0 0;
+        padding-left: calc(var(--nav-width) + 2rem)
+    }
+    .header {
+        height: calc(var(--header-height) + 1rem);
+        padding: 0 2rem 0 calc(var(--nav-width) + 2rem)
+    }
+    .header_img {
+        width: 40px;
+        height: 40px
+    }
+    .header_img img {
+        width: 45px
+    }
+    .l-navbar {
+        left: 0;
+        padding: 1rem 1rem 0 0
+    }
+}
+.cover {
+    width: 50%
+}
+ul {
+    padding-left: 0!important;
+    text-decoration: none!important
+}
+body {
+    max-width: 100%
+}
+a {
+    text-decoration: none!important
+}
+.navbar-light .navbar-brand {
+    color: #fff!important
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff!important
+}
+.logo {
+    width: 64px;
+    height: 28px;
+    display: none!important
+}
+.a-title-section {
+    text-align: center
+}
+.title {
+    color: #000
+}
+@media (max-width:234px) {
+    .carousel-item {
+        height: 20px!important
+    }
+}
+.carousel-item.active {
+    display: block
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%
+    }
+}
+.w-100 {
+    height: 590px;
+    width: 100%!important
+}
+a {
+    text-decoration: none
+}
+.li-center {
+    padding-right: 33px!important
+}
+img {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%
+}
+#toggle {
+    position: absolute;
+    visibility: hidden
+}
+.topnav {
+    text-align: center;
+    text-align: center;
+    overflow: hidden;
+    position: relative
+}
+.topnav #myLinks {
+    display: none;
+    padding-left: 460px;
+    text-align: center
+}
+.topnav a {
+    float: left;
+    text-align: center;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px
+}
+.topnav a.icon {
+    float: right;
+    text-align: center
+}
+.topnav a:hover {
+    text-align: center;
+    color: #000
+}
+.active {
+    text-align: center;
+    color: #000
+}
+@media screen and (max-width:592px) {
+    .topnav #myLinks {
+        padding-left: 90px;
+        display: none;
+        text-align: center
+    }
+}
+#menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px;
+    padding-top: 125px;
+    background: #fff;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0 0;
+    transform: translate(-100%,
+    0);
+    transition: transform .5s cubic-bezier(.77,
+    .2,
+    .05,
+    1)
+}
+#menu li {
+    padding-left: 90px!important;
+    padding: 10px 0;
+    font-size: 12px
+}
+.container {
+    margin-right: auto;
+    margin-left: auto
+}
+.container:after,
+.container:before,
+.row:after,
+.row:before {
+    display: table;
+    content: " "
+}
+.clearfix:after,
+.container:after,
+.row:after {
+    clear: both
+}
+@media (min-width:768px) {
+    .container {
+        width: 750px
+    }
+}
+@media (min-width:992px) {
+    .container {
+        width: 970px
+    }
+}
+@media (min-width:1334px) {
+    .container {
+        width: 1304px
+    }
+}
 </style>
 
 <body>
