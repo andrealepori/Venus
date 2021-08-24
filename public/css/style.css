@@ -300,7 +300,12 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Circular Sp UI v3 T' !important;
+        font-family: 'Circular Sp UI v3 T Book' !important;
+        src: url('webfont/CircularSpUIv3T-Book.eot');
+        src: url('webfont/CircularSpUIv3T-Book.eot?#iefix') format('embedded-opentype'), url('webfont/CircularSpUIv3T-Book.woff2') format('woff2'), url('webfont/CircularSpUIv3T-Book.woff') format('woff'), url('webfont/CircularSpUIv3T-Book.ttf') format('truetype'), url('webfont/CircularSpUIv3T-Book.svg#CircularSpUIv3T-Book') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
 }
 }
 
