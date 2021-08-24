@@ -1,12 +1,238 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url(//db.onlinewebfonts.com/c/596409e7700d7e9cd94f9df5a8b1b477?family=Circular+Sp+UI+v3+T+Black);
+@font-face {font-family: "Circular Sp UI v3 T Black"; src: url("//db.onlinewebfonts.com/t/596409e7700d7e9cd94f9df5a8b1b477.eot"); src: url("//db.onlinewebfonts.com/t/596409e7700d7e9cd94f9df5a8b1b477.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/596409e7700d7e9cd94f9df5a8b1b477.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/596409e7700d7e9cd94f9df5a8b1b477.woff") format("woff"), url("//db.onlinewebfonts.com/t/596409e7700d7e9cd94f9df5a8b1b477.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/596409e7700d7e9cd94f9df5a8b1b477.svg#Circular Sp UI v3 T Black") format("svg"); }
+2016, Copyright by Lineto. All rights reserved.
+
+Circular is a trademark of Lineto
+
+Lawful use of the fonts or the data contained within the font files excludes modifying, reassembling, renaming, storing on publicly available servers, redistibutring and selling. Any unlawful use of this typographic software will be prosecuted. For additional information seehttp://www.lineto.com/Lineto.com/Font+Licensing
+
+
+    @font-face {
+        font-family: "CircularSpUIv3T";
+        src: url("CircularSpUIv3T.woff") format("woff"),
+    }
+    
+    @font-face {
+        font-family: 'Circular Sp UI v3 T';
+        src: url('webfont/CircularSpUIv3T-Black.eot');
+        src: url('webfont/CircularSpUIv3T-Black.eot?#iefix') format('embedded-opentype'), url('webfont/CircularSpUIv3T-Black.woff2') format('woff2'), url('webfont/CircularSpUIv3T-Black.woff') format('woff'), url('webfont/CircularSpUIv3T-Black.ttf') format('truetype'), url('webfont/CircularSpUIv3T-Black.svg#CircularSpUIv3T-Black') format('svg');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Circular Sp UI v3 T';
+        src: url('webfont/CircularSpUIv3T-Bold.eot');
+        src: url('webfont/CircularSpUIv3T-Bold.eot?#iefix') format('embedded-opentype'), url('webfont/CircularSpUIv3T-Bold.woff2') format('woff2'), url('webfont/CircularSpUIv3T-Bold.woff') format('woff'), url('webfont/CircularSpUIv3T-Bold.ttf') format('truetype'), url('webfont/CircularSpUIv3T-Bold.svg#CircularSpUIv3T-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: '';
+        src: url('webfont/9fcec9e815cb385fae7cdcc77f939796.eot');
+        src: url('webfont/9fcec9e815cb385fae7cdcc77f939796.eot?#iefix') format('embedded-opentype'), url('webfont/9fcec9e815cb385fae7cdcc77f939796.woff2') format('woff2'), url('webfont/9fcec9e815cb385fae7cdcc77f939796.woff') format('woff'), url('webfont/9fcec9e815cb385fae7cdcc77f939796.ttf') format('truetype'), url('webfont/9fcec9e815cb385fae7cdcc77f939796.svg#') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: '.';
+        src: url('webfont/d1e02d66f65a8dab87c923942a195ff3.eot');
+        src: url('webfont/d1e02d66f65a8dab87c923942a195ff3.eot?#iefix') format('embedded-opentype'), url('webfont/d1e02d66f65a8dab87c923942a195ff3.woff2') format('woff2'), url('webfont/d1e02d66f65a8dab87c923942a195ff3.woff') format('woff'), url('webfont/d1e02d66f65a8dab87c923942a195ff3.ttf') format('truetype'), url('webfont/d1e02d66f65a8dab87c923942a195ff3.svg#.') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: '';
+        src: url('webfont/c291dc1437f7f180bf187a2930a10acd.eot');
+        src: url('webfont/c291dc1437f7f180bf187a2930a10acd.eot?#iefix') format('embedded-opentype'), url('webfont/c291dc1437f7f180bf187a2930a10acd.woff2') format('woff2'), url('webfont/c291dc1437f7f180bf187a2930a10acd.woff') format('woff'), url('webfont/c291dc1437f7f180bf187a2930a10acd.ttf') format('truetype'), url('webfont/c291dc1437f7f180bf187a2930a10acd.svg#') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Circular Sp UI v3 T Book';
+        src: url('webfont/CircularSpUIv3T-Book.eot');
+        src: url('webfont/CircularSpUIv3T-Book.eot?#iefix') format('embedded-opentype'), url('webfont/CircularSpUIv3T-Book.woff2') format('woff2'), url('webfont/CircularSpUIv3T-Book.woff') format('woff'), url('webfont/CircularSpUIv3T-Book.ttf') format('truetype'), url('webfont/CircularSpUIv3T-Book.svg#CircularSpUIv3T-Book') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: '.';
+        src: url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.eot');
+        src: url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.eot?#iefix') format('embedded-opentype'), url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.woff2') format('woff2'), url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.woff') format('woff'), url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.ttf') format('truetype'), url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.svg#.') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+*{
+        font-family: 'Circular Sp UI v3 T';
+}
+body{
+    
+       font-family: 'Circular Sp UI v3 T';
+}
+    .al-top {
+        padding-top: 913px;
+        max-width: 1292px;
+        padding-left: 14.44rem;
+    }
+    
+    @font-face {
+        font-family: "CircularSpUIv3T";
+        src: url("CircularSpUIv3T.woff") format("woff"),
+    }
+    
+    @font-face {
+        font-family: 'Circular Sp UI v3 T';
+        src: url('webfont/CircularSpUIv3T-Black.eot');
+        src: url('webfont/CircularSpUIv3T-Black.eot?#iefix') format('embedded-opentype'), url('webfont/CircularSpUIv3T-Black.woff2') format('woff2'), url('webfont/CircularSpUIv3T-Black.woff') format('woff'), url('webfont/CircularSpUIv3T-Black.ttf') format('truetype'), url('webfont/CircularSpUIv3T-Black.svg#CircularSpUIv3T-Black') format('svg');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Circular Sp UI v3 T';
+        src: url('webfont/CircularSpUIv3T-Bold.eot');
+        src: url('webfont/CircularSpUIv3T-Bold.eot?#iefix') format('embedded-opentype'), url('webfont/CircularSpUIv3T-Bold.woff2') format('woff2'), url('webfont/CircularSpUIv3T-Bold.woff') format('woff'), url('webfont/CircularSpUIv3T-Bold.ttf') format('truetype'), url('webfont/CircularSpUIv3T-Bold.svg#CircularSpUIv3T-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: '';
+        src: url('webfont/9fcec9e815cb385fae7cdcc77f939796.eot');
+        src: url('webfont/9fcec9e815cb385fae7cdcc77f939796.eot?#iefix') format('embedded-opentype'), url('webfont/9fcec9e815cb385fae7cdcc77f939796.woff2') format('woff2'), url('webfont/9fcec9e815cb385fae7cdcc77f939796.woff') format('woff'), url('webfont/9fcec9e815cb385fae7cdcc77f939796.ttf') format('truetype'), url('webfont/9fcec9e815cb385fae7cdcc77f939796.svg#') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: '.';
+        src: url('webfont/d1e02d66f65a8dab87c923942a195ff3.eot');
+        src: url('webfont/d1e02d66f65a8dab87c923942a195ff3.eot?#iefix') format('embedded-opentype'), url('webfont/d1e02d66f65a8dab87c923942a195ff3.woff2') format('woff2'), url('webfont/d1e02d66f65a8dab87c923942a195ff3.woff') format('woff'), url('webfont/d1e02d66f65a8dab87c923942a195ff3.ttf') format('truetype'), url('webfont/d1e02d66f65a8dab87c923942a195ff3.svg#.') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: '';
+        src: url('webfont/c291dc1437f7f180bf187a2930a10acd.eot');
+        src: url('webfont/c291dc1437f7f180bf187a2930a10acd.eot?#iefix') format('embedded-opentype'), url('webfont/c291dc1437f7f180bf187a2930a10acd.woff2') format('woff2'), url('webfont/c291dc1437f7f180bf187a2930a10acd.woff') format('woff'), url('webfont/c291dc1437f7f180bf187a2930a10acd.ttf') format('truetype'), url('webfont/c291dc1437f7f180bf187a2930a10acd.svg#') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Circular Sp UI v3 T Book';
+        src: url('webfont/CircularSpUIv3T-Book.eot');
+        src: url('webfont/CircularSpUIv3T-Book.eot?#iefix') format('embedded-opentype'), url('webfont/CircularSpUIv3T-Book.woff2') format('woff2'), url('webfont/CircularSpUIv3T-Book.woff') format('woff'), url('webfont/CircularSpUIv3T-Book.ttf') format('truetype'), url('webfont/CircularSpUIv3T-Book.svg#CircularSpUIv3T-Book') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: '.';
+        src: url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.eot');
+        src: url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.eot?#iefix') format('embedded-opentype'), url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.woff2') format('woff2'), url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.woff') format('woff'), url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.ttf') format('truetype'), url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.svg#.') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: "CircularSpUIv3T";
+        src: url("CircularSpUIv3T.woff") format("woff"),
+    }
+    
+    @font-face {
+        font-family: 'Circular Sp UI v3 T';
+        src: url('webfont/CircularSpUIv3T-Black.eot');
+        src: url('webfont/CircularSpUIv3T-Black.eot?#iefix') format('embedded-opentype'), url('webfont/CircularSpUIv3T-Black.woff2') format('woff2'), url('webfont/CircularSpUIv3T-Black.woff') format('woff'), url('webfont/CircularSpUIv3T-Black.ttf') format('truetype'), url('webfont/CircularSpUIv3T-Black.svg#CircularSpUIv3T-Black') format('svg');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Circular Sp UI v3 T';
+        src: url('webfont/CircularSpUIv3T-Bold.eot');
+        src: url('webfont/CircularSpUIv3T-Bold.eot?#iefix') format('embedded-opentype'), url('webfont/CircularSpUIv3T-Bold.woff2') format('woff2'), url('webfont/CircularSpUIv3T-Bold.woff') format('woff'), url('webfont/CircularSpUIv3T-Bold.ttf') format('truetype'), url('webfont/CircularSpUIv3T-Bold.svg#CircularSpUIv3T-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: '';
+        src: url('webfont/9fcec9e815cb385fae7cdcc77f939796.eot');
+        src: url('webfont/9fcec9e815cb385fae7cdcc77f939796.eot?#iefix') format('embedded-opentype'), url('webfont/9fcec9e815cb385fae7cdcc77f939796.woff2') format('woff2'), url('webfont/9fcec9e815cb385fae7cdcc77f939796.woff') format('woff'), url('webfont/9fcec9e815cb385fae7cdcc77f939796.ttf') format('truetype'), url('webfont/9fcec9e815cb385fae7cdcc77f939796.svg#') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: '.';
+        src: url('webfont/d1e02d66f65a8dab87c923942a195ff3.eot');
+        src: url('webfont/d1e02d66f65a8dab87c923942a195ff3.eot?#iefix') format('embedded-opentype'), url('webfont/d1e02d66f65a8dab87c923942a195ff3.woff2') format('woff2'), url('webfont/d1e02d66f65a8dab87c923942a195ff3.woff') format('woff'), url('webfont/d1e02d66f65a8dab87c923942a195ff3.ttf') format('truetype'), url('webfont/d1e02d66f65a8dab87c923942a195ff3.svg#.') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: '';
+        src: url('webfont/c291dc1437f7f180bf187a2930a10acd.eot');
+        src: url('webfont/c291dc1437f7f180bf187a2930a10acd.eot?#iefix') format('embedded-opentype'), url('webfont/c291dc1437f7f180bf187a2930a10acd.woff2') format('woff2'), url('webfont/c291dc1437f7f180bf187a2930a10acd.woff') format('woff'), url('webfont/c291dc1437f7f180bf187a2930a10acd.ttf') format('truetype'), url('webfont/c291dc1437f7f180bf187a2930a10acd.svg#') format('svg');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Circular Sp UI v3 T Book';
+        src: url('webfont/CircularSpUIv3T-Book.eot');
+        src: url('webfont/CircularSpUIv3T-Book.eot?#iefix') format('embedded-opentype'), url('webfont/CircularSpUIv3T-Book.woff2') format('woff2'), url('webfont/CircularSpUIv3T-Book.woff') format('woff'), url('webfont/CircularSpUIv3T-Book.ttf') format('truetype'), url('webfont/CircularSpUIv3T-Book.svg#CircularSpUIv3T-Book') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: '.';
+        src: url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.eot');
+        src: url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.eot?#iefix') format('embedded-opentype'), url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.woff2') format('woff2'), url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.woff') format('woff'), url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.ttf') format('truetype'), url('webfont/5dbdb7c5bda2a206ea7ef2eee118dd51.svg#.') format('svg');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
 * {
     text-decoration: none;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Circular Sp UI v3 T' !important;
+}
 }
 
 .mr-1 {
