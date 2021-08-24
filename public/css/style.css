@@ -74,7 +74,7 @@ navbar .logo {
     margin-top: 60px;
     font-size: 24px;
     font-weight: bold;
-    background-color: #d63434;
+    background-color:#2220b0;
     color: white;
     text-align: center;
     padding: 10px 20px;
@@ -86,8 +86,8 @@ navbar .logo {
 
 .main .create-join .createroom-butt:hover {
     background-color: white;
-    border: 2px solid #d63434;
-    color: #d63434;
+    border: 2px solid #2220b0;
+    color: #2220b0;
     cursor: pointer;
 }
 
