@@ -154,7 +154,12 @@ navbar {
         .roomcode-error {
             border-bottom: 3px solid rgb(211, 28, 28);
         }
-
+.main .create-join .joinroom:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+}
         .joinroom {
             margin-top: 20px;
             width: 100%;
